@@ -24,7 +24,9 @@ Cellpose is required for the full macro.
 
 StarDist and LabKit (and their dependencies) are required Fiji plugins. The macro will warn if you are missing any.
 
-The Cellpose SAM model and LabKit classifiers are also required, but are included in the macro folder. Do not delete them.
+The Cellpose SAM model and LabKit classifiers are also required. The CPSAM model is too large (~500 Mb) and cannot be hosted on GitHub. You can download it from the following DOI: 10.5281/zenodo.19752627
+
+Move the CPSAM model into the macro folder, and it will work.
 
 TROUBLESHOOTING KNOWN ISSUES:
 
